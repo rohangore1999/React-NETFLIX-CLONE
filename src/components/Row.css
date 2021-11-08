@@ -1,0 +1,38 @@
+.row{
+    color: white;
+    margin-left: 20px;
+}
+
+.row__posters{
+    display: flex; /*get all img in row*/
+    overflow-y: hidden; /* y-axis hidden */
+    overflow-x: scroll; /* x-axis should scroll */
+    padding: 20px; /* if I dont use padding it will crop while scaling; so must use */
+}
+
+/* to get rid of scroll on x axis */
+
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row__poster{
+    width: 100%;
+    /* object-fit: contain ==> regardless of whatever be the resolution img will be fit properly */
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: 450ms;
+}
+
+.row__poster:hover{
+    transform: scale(1.08);
+}
+
+.row__posterLarge{
+    max-height: 250px;
+}
+
+.row__posterLarge:hover{
+    transform: scale(1.08);
+}
