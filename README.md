@@ -1,3 +1,12 @@
+# HOSTED LINK(if it is not opening turn on mobile data and then try again)
+
+http://react-netflix-clone.investenergy.in/
+
+
+
+
+--------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
